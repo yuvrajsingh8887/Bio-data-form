@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <form>
+        <fieldset>
+
+
+            <legend>Personal Information</legend>
+            
+            <label for="fname">First Name :</label> 
+            <input type="text" id="fname" placeholder="Enter your First Name">
+
+            <label for="lname"> Last Name :</label> 
+            <input type="text" id="lname" placeholder="Enter your last Name"><br><br>
+            
+
+            <label for="m"> Male  :</label> 
+            <input type="radio" id="m" name="g" >
+
+            <label for="f"> Female  :</label> 
+            <input type="radio" id="f" name="g" >
+
+            <label for="o"> Other  :</label> 
+            <input type="radio" id="o" name="g" >
+
+            <br>
+            <br>
+
+            <label for="DOB"> Date of Birth  :</label> 
+            <input type="date" id="DOB" >
+            <br>
+            <br>
+
+            <label for="mail">Email : </label> 
+            <input type="email" id="mail"placeholder ="Enter your email" > 
+            <br>
+            <br>
+
+            <label for="phone">Phone : </label> 
+            <input type="tel" id="phone"name="gender" placeholder="+91"> 
+            <br>
+            <br>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Education </legend>
+
+            <label for="school">School Name : </label> 
+            <input type="text" id="school" placeholder="School Name"> 
+            <br>
+            <br>
+
+            <label for="class">Class : </label> 
+            <input type="text" id="class"placeholder="Class name" > 
+            <br>
+            <br>
+
+            <label for="g">Stream :</label> 
+            <select id="g">
+                <option> Science</option>
+                <option>commerse</option>
+                <option> biology</option>
+                <option> math</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="marksheet">Marksheet :</label>
+            <input type="file" id="marksheet">
+
+
+        </fieldset>
+    </form>
+<br>
+    <button>Submit</button>
+</body>
+</html>
